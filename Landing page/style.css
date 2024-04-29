@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 900px;
+}
+header{
+    height: 360px;
+    width: 100%;
+    background-image:url("./abstract-background-crosses-shades-red-colors_444390-6238.avif"); ;
+}
+header h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 3.5rem;
+    color: white;
+}
+header p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+ header div{
+    text-align: center;
+    margin-top: 30px;
+}
+a{
+    font-size: 1.6rem;
+    width: 20%;
+    border: none;
+    padding: 8px 10px ;
+    background-color: rgb(66, 66, 171);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition-property:background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+a:hover{
+    background-color: rgb(3, 3, 36);
+}
+main{
+    height:300px ;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+section{
+    margin-top: 60px;
+    border: 2px solid rgb(233, 228, 228);
+    box-shadow: 0 0 2px 2px rgb(211, 206, 206);
+    border-radius: 5px;
+}
+.feature-one{
+    text-align: center;
+    width: 20%;
+    height: 80%;
+}
+.feature-two{
+    text-align: center;
+    width: 20%;
+    height: 80%;
+}
+.feature-one h2, .feature-two h2{
+    padding-top: 80px;
+}
+.feature-one p, .feature-two p{
+    margin-top: 20px;
+
+}
+section:hover{
+    transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    
+}
+footer{
+    height: 100px;
+    margin-top: 60px;
+    background-color: rgb(36, 27, 27);
+}
+footer p{
+    text-align: center;
+    padding-top: 42px;
+    color:white;
+    font-size: 1.2rem;
+}
